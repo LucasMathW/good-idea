@@ -3,24 +3,9 @@ import { useState } from "react";
 function Home(){
   return (
     <div>
-      <h2>Home</h2>
-      <Contador/>
+      <h2>Hello Word NextJS</h2>
     </div>
   )
-}
-
-function Contador(){
-  const [contador, setContador] = useState(1)
-
-  function addContador(){
-    setContador(contador + 1)
-  }
-   return (
-     <div>
-       <div>{contador}</div>
-       <button onClick={addContador}>Adicionar</button>
-     </div>
-   )
 }
 
 export default Home;
